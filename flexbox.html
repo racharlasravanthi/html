@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+  <title>FLEX BOX IN CSS</title>
+  <style>
+     #header-parent{
+      display:flex;
+       background-color:#F3F3F5;
+       padding:26px;
+       font-weight:600;
+       }
+      .logo{
+       flex-grow:1;
+       }
+        .navagation-links{
+         flex-grow:8;
+         }
+        .navagation-links ul{
+       display:flex;
+        list-style-type:none;
+        margin:0;
+        flex-grow:1;
+        justify-content:space-between;
+       }
+       .navagation-links li{
+        cursor:pointer;
+       }
+       .navagation-links li:hover{
+        color:#1089d4;
+        }
+   </style>
+  </head>
+  <body>
+    <div id="header-parent">
+       <div class="logo">
+        <img src="https://www.10000coders.co/assets/10000coders-logo.png?v=1.2" alt="10000-coders logo"/>  
+    </div>
+     <nav class="navagation-links">
+      <ul>
+         <li>home</li>
+         <li>why</li>
+         <li>circulation</li>
+         <li>team</li>
+         <li>employers</li>
+         <li>admission</li>
+       </ul>
+       </nav>
+   </body>
+   </html>
+    

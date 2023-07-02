@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <title>grid in css</title>
+ <style>
+ #grid_parent{
+   background-color:green;
+   padding:10px;
+   display:grid;
+   grid-template-columns:repeat(2,1fr);
+   gap:30px;
+   }
+  .grid-child{
+   background-color:blue;
+   color:pink;
+   font-size:36px;
+   font-weight:700;
+   text-align:center;
+   border:10px solid brown;
+   padding:30px;
+   }
+    .logo{
+     grid-column:span 1
+     }
+    .nav{
+     grid-column:span 2
+     }
+     .banner{
+      grid-column:span 3
+      }
+      .content1{
+       
+      }
+       .content2{
+     
+      }
+      .content3{
+       
+       }
+       .footer{
+        grid-column:span 4
+        }
+  </style>
+  </head>
+   <body>
+   <div id="grid_parent">
+   <div class="grid_child header">logo</div>
+   <div class="grid_child header">nav</div>
+   <div class="grid_child  banner">banner</div>
+   <div class="grid_child content1">content 1</div>
+   <div class="grid_child content2">conten 2</div>
+   <div class="grid_child content3">conten 3</div>
+   <div class="grid_child footer">footer</div>
+   </div>
+   </body>
+  </html>

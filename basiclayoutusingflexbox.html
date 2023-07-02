@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+  <title>basic layouts using flexbox</title>
+   <style>
+     .Header{
+      background-color:black;
+      color:pink;
+      padding:50px;
+      font-size:36px;
+      font-weight:500;
+      text-align:center;
+     }
+     .Banner{
+      background-color:green;
+      color:blue;
+      font-size:36px;
+      font-weight:20px;
+      text-align:center;
+     }
+      .content{
+        display:flex;
+       }
+      .content>div:nth-child(1),.content>div:nth-child(2),.content>div:nth-child(3){
+       height:50px;
+      background-color:grey;
+      color:black;
+      font-size:36px;
+      font-weight:20px;
+      display:flex;
+      justify-content:center; 
+      border:3px solid white;
+      align-item:center;
+      flex:grow:1
+       }
+      .footer{
+       background-color:yellow;
+      color:brown;
+      font-size:36px;
+      font-weight:20px;
+       text-align:center;
+       }
+     </style>
+    </head>
+    <body>
+<div class="Header">
+     Header
+   </div>
+   <div class="Banner">
+     Banner
+   </div>
+   <div class="content">
+    <div>content 1</div>
+    <div>content 2</div>
+    <div>content 3</div>
+    </div>
+    <div class="footer">
+       footer
+      </div>
+      </body>
+    </html>

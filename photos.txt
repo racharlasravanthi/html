@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+  <title>images</title>
+  </head>
+   <body>
+   <div style:"display-flex;>
+   <img src="C:/Users/admin/Desktop/images/nature2.jfif"/><br>
+    </div>
+   <div>
+   <center><img src="C:\Users\admin\Desktop\images\nature3.jpg"/></center>
+   </div>
+   </body>
+   </html>
